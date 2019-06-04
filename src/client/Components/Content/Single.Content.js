@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link, Redirect } from 'react-router-dom'
-import Social from './Single.Social';
-import Container from '../Container';
+// import { Link, Redirect } from 'react-router-dom'
+// import Social from './Single.Social';
+// import Container from '../Container';
 import Row from '../Row';
 
 import {

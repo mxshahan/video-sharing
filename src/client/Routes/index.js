@@ -23,8 +23,8 @@ import Images from '../Views/Images';
 import MyImages from '../Components/Dashboard/MyImages';
 import MyVideos from '../Components/Dashboard/MyVideos';
 import MyMemes from '../Components/Dashboard/MyMemes';
-import CustomOrder from '../Views/CustomOrder';
-import MyCategory from '../Components/Dashboard/MyCategory';
+// import CustomOrder from '../Views/CustomOrder';
+// import MyCategory from '../Components/Dashboard/MyCategory';
 
 export const history = createHistory()
 
@@ -42,7 +42,7 @@ const AppRouter = () => (
         <Route path="/images" exact={true} component={Images}/>
         <Route path='/images/:id' component={Single}/>
         <Route path='/videos/:id' component={Single}/>
-        <Route path='/custom-order' component={CustomOrder}/>
+        {/* <Route path='/custom-order' component={CustomOrder}/> */}
         
         <PublicRoute path='/login' component={Login} />
         {/* <PublicRoute path='/register' component={Register} /> */}

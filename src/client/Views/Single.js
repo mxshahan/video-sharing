@@ -1,7 +1,7 @@
 import React from 'react';
-import Sidebar from '../Components/Sidebar';
-import Grid from '../Components/Grids/Grid';
-import SearchBar from '../Components/SearchBar';
+// import Sidebar from '../Components/Sidebar';
+// import Grid from '../Components/Grids/Grid';
+// import SearchBar from '../Components/SearchBar';
 import { setSingleContent, getSingle } from '../Actions/content';
 import Axios from 'axios';
 import { connect } from 'react-redux';
@@ -9,7 +9,7 @@ import SingleContent from '../Components/Content/Single.Content';
 import conf from '../config';
 import Loader from '../Components/Loader'
 import Container from '../Components/Container';
-import PopularContent from '../Components/Content/PopularContent';
+// import PopularContent from '../Components/Content/PopularContent';
 import Row from '../Components/Row';
 
 class Single extends React.Component{

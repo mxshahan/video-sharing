@@ -1,12 +1,12 @@
 import React from 'react';
 import Row from '../Row';
-import VideoCard from './Video.Card';
+// import VideoCard from './Video.Card';
 import Card from '../Card';
-import Axios from 'axios';
+// import Axios from 'axios';
 import { setContent } from '../../Actions/content';
 import { connect } from 'react-redux';
-import conf from '../../config';
-import SelectExpenses from '../../Selector/filter';
+// import conf from '../../config';
+// import SelectExpenses from '../../Selector/filter';
 
 class Contents extends React.Component{
   state = {

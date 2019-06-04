@@ -1,6 +1,6 @@
 module.exports = {
   server: {
-    port: 3090,
+    port: process.env.PORT || 3090,
     compress: false
   },
   db: {

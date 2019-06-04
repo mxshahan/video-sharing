@@ -1,7 +1,7 @@
 import {createStore, combineReducers, applyMiddleware, compose} from 'redux';
 import authReducer from '../Reducers/auth';
 import contentReducer from '../Reducers/content';
-import filterReducer from '../Reducers/filter';
+// import filterReducer from '../Reducers/filter';
 import thunk from 'redux-thunk';
 // import { sessionReducer, sessionService } from 'redux-react-session';
 
@@ -13,7 +13,7 @@ export default () => {
         combineReducers({
             auth: authReducer,
             content: contentReducer,
-            filter: filterReducer
+            // filter: filterReducer
         }),
         composeEnhancer(applyMiddleware(thunk))
     );

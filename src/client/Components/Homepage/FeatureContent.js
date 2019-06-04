@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import OwlCarousel from 'react-owl-carousel';
+// import OwlCarousel from 'react-owl-carousel';
 import Container from '../Container';
 import Row from '../Row';
 import Card from '../Card';
-import FeatureNav from './FeatureNav';
+// import FeatureNav from './FeatureNav';
 import { setContent, setCategory, setCatContent } from '../../Actions/content';
 import Axios from 'axios';
 import conf from '../../config';
@@ -56,9 +56,9 @@ class FeatureContent extends React.Component{
       <Container>
         <Row>
           <div className="col-md-2 p-0">
-          {this.state.category ? 
+          {/* {this.state.category ? 
             <FeatureNav category={this.props.category} filter={this.filterComponent}/>
-          : this.state.category == undefined ? '' : 'Loading'}
+          : this.state.category == undefined ? '' : 'Loading'} */}
           </div>
           <div className="col-md-10">
             <Row>
