@@ -60,7 +60,7 @@
     "lodash": "^4.17.4",
     "log4js": "^2.4.1",
     "moment": "^2.20.1",
-    "mongoose": "^4.13.9",
+    "mongoose": "^5.7.5",
     "mongoose-timestamp": "^0.6.0",
     "mongoose-unique-validator": "^1.0.6",
     "nodemailer": "^4.6.4",
